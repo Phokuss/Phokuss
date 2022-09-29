@@ -1,0 +1,10 @@
+additional-dependency-files:
+  - type: pip-requirements-txt
+    path: other-dependencies.txt
+
+  - type: pipenv-pipfile
+    path: custom/CustomPipfile
+
+  - type: npm-package-json
+    path: frontend/app1/configuration/package-*.json
+
